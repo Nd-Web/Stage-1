@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ekeh Paul Ndubuisi | Profile Card</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <article class="profile-card" data-testid="test-profile-card">
+      <figure class="avatar-container">
+        <img
+          src="https://media.licdn.com/dms/image/v2/D4E03AQFmcn9Z6k2g2w/profile-displayphoto-shrink_800_800/B4EZXiqQhTGYAc-/0/1743264488328?e=1762387200&v=beta&t=f3Ebi4lB96-IH7kfyWuMvnaKkHmirQp-LW5pwyr_yhQ"
+          alt="Profile picture of Ekeh Paul Ndubuisi"
+          data-testid="test-user-avatar"
+        />
+      </figure>
+      <header>
+        <h2 data-testid="test-user-name">Ekeh Paul Ndubuisi</h2>
+      </header>
+      <p data-testid="test-user-bio">
+        Passionate software engineer and frontend enthusiast. I enjoy crafting user experiences that are fast, responsive, and intuitive.
+      </p>
+      <p data-testid="test-user-time" id="time"></p>
+
+      <nav class="social-links" data-testid="test-user-social-links">
+        <ul>
+          <li><a href="https://github.com/Nd-Web" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-github">GitHub</a></li>
+          <li><a href="https://linkedin.com/in/paul-ndubuisi" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-linkedin">LinkedIn</a></li>
+        </ul>
+      </nav>
+
+      <section class="hobbies" data-testid="test-user-hobbies">
+        <h3>Hobbies</h3>
+        <ul>
+          <li>Coding</li>
+          <li>Gaming</li>
+          <li>Music</li>
+        </ul>
+      </section>
+
+      <section class="dislikes" data-testid="test-user-dislikes">
+        <h3>Dislikes</h3>
+        <ul>
+          <li>Laggy internet</li>
+          <li>Unresponsive designs</li>
+        </ul>
+      </section>
+    </article>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Ekeh Paul Ndubuisi</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
